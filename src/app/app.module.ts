@@ -6,7 +6,7 @@ import * as Rollbar from 'rollbar';
 
 
 const rollbarConfig = {
-    accessToken: 'xyz',
+    accessToken: 'c9269e4d465c489aa5527c8e61b90fb4',
     captureUncaught: true,
     captureUnhandledRejections: true,
     codeVersion: '1'

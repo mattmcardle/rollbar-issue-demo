@@ -13,9 +13,7 @@ export class AppComponent implements OnInit{
   constructor(private fakeService: FakeServiceService){}
 
     ngOnInit(): void {
-      this.fakeService.get().subscribe((next) => {
-        console.log(next);
-      });
+      console.error('something went wrong there');
     }
 
 }
